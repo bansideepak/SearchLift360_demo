@@ -39,7 +39,6 @@ DEMO/
 ├── frontend/
 │   ├── app.py
 │   └── requirements.txt
-└── venv/ (virtual environment)
 ```
 
 ---
