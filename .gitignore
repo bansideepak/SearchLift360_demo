@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual Environment
+venv/
+.env
+.env.*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Test/report files
+coverage/
+htmlcov/
+*.cover
+*.py,cover
+.cache/
+nosetests.xml
+test-results.xml
+*.pytest_cache/
