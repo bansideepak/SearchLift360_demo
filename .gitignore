@@ -17,7 +17,21 @@ venv/
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
 
+# MacOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.tmp
+*.temp
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -34,3 +48,13 @@ htmlcov/
 nosetests.xml
 test-results.xml
 *.pytest_cache/
+
+# FastMCP and API keys
+*.key
+config.json
+secrets.json
+
+# Logs and temporary files
+logs/
+temp/
+tmp/
